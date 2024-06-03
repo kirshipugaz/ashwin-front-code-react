@@ -6,13 +6,11 @@ import {Routes, Route} from "react-router-dom";
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (<>
-    <div>{count}</div>
       <Routes>
         <Route path='/login' element={<Login />} />
-        <Route path='/signUp' element={<SignUp />} />
+        <Route path='/signup' element={<SignUp />} />
       </Routes>
     </>
   )

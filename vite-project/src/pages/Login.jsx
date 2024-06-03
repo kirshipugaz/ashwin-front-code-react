@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from '../components/imgHeader'
 import Footer from '../components/Footer'
 import "../css/login.css"
@@ -6,21 +6,35 @@ import { Link } from 'react-router-dom'
 
 
 const Login = () => {
+  const [formData, setFormData] = useState({
+    username : "",
+    password : ""
+  })
+
+  const handleChange = (e) => {
+    setFormData({...formData, [e.target.name] : e.target.value})
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(formData);
+  }
+
   return (
     <>
         <Header />
         <div className="whole-forme">
       <div className="card login-form">
         <div className="card-body">
-          <h2 className="card-title">Registration</h2>
-          <form className="form-inputs">
+          <h2 className="card-title">Login</h2>
+          <form className="form-inputs" onSubmit={handleSubmit}>
             <div className="form-group">
               <label className="input-name">Email/Phone Number</label>
-              <input type="text" className="form-control input-box" />
+              <input type="text" className="form-control input-box" name='username' onChange={handleChange} />
             </div>
             <div className="form-group">
                 <label className="input-name">Password</label>
-                <input id="pass" className="form-control input-box" type="password" name="phone" />
+                <input id="pass" className="form-control input-box" name='password' type="password" onChange={handleChange} />
             </div>
             <div className='mt-2'>
                 <a className='link-underline-dark forgot'>Forgot Password?</a>

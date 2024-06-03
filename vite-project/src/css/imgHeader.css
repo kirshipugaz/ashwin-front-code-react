@@ -18,7 +18,24 @@
 
 }
 
-@media (min-width: 1201px) and (max-width:1718px){
+@media (min-width: 1200px) and (max-width:1400px){
+    .header-content {
+    margin-top: 10%;
+    display: flex;
+    float: left;
+    margin-left: 5%;
+    width: 50%;
+  }
+  
+.header-image {
+    width: auto;
+    height: auto;
+    border-radius: 4%;
+}
+
+}
+
+@media (min-width: 1400px) and (max-width:1718px){
     .header-content {
     margin-top: 7%;
     display: flex;

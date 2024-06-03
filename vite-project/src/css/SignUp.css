@@ -1,8 +1,44 @@
 
-@media (min-width: 1718px){
+@media (min-width: 2050px){
+    .login-form {
+        width: 100%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-width: 0px !important;
+        border: none;
+        padding: 3%;
+        border-radius: 15px !important;
+    }
+      
+    .card-title {
+        margin-bottom: 5%;
+    }
+    
+    .whole-form {
+        margin-left: 5%;
+        margin-top: 10%;
+        width: 20%;
+        float: right;
+        margin-right: 10%;
+    }
+    
+    .whole-forme {
+        margin-left: 5%;
+        margin-top: 17%;
+        width: 20%;
+        float: right;
+        margin-right: 10%;
+    }
+    }
+
+
+@media (min-width: 1718px) and (max-width: 2050px){
 .login-form {
     width: 100%;
-    box-shadow: 2px 2px 2px 2px #AAAAAA;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-width: 0px !important;
+    border: none;
+    padding: 3%;
+    border-radius: 15px !important;
 }
   
 .card-title {
@@ -11,7 +47,7 @@
 
 .whole-form {
     margin-left: 5%;
-    margin-top: 10%;
+    margin-top: 12%;
     width: 20%;
     float: right;
     margin-right: 10%;
@@ -19,66 +55,12 @@
 
 .whole-forme {
     margin-left: 5%;
-    margin-top: 15%;
+    margin-top: 17%;
     width: 20%;
     float: right;
     margin-right: 10%;
 }
 }
-
-@media (min-width: 1201px) and (max-width:1718px){
-    .login-form {
-        width: 100%;
-        box-shadow: 2px 2px 2px 2px #AAAAAA;
-    }
-      
-    .card-title {
-        margin-bottom: 5%;
-    }
-    
-    .whole-form {
-        margin-left: 5%;
-        margin-top: 9%;
-        width: 30%;
-        float: right;
-        margin-right: 7%;
-    }
-    
-    .whole-forme {
-        margin-left: 5%;
-        margin-top: 15%;
-        width: 30%;
-        float: right;
-        margin-right: 7%;
-    }
-}
-
-@media (max-width: 1200px) {
-    .login-form {
-        width: 100%;
-        box-shadow: 2px 2px 2px 2px #AAAAAA;
-    }
-      
-    .card-title {
-        margin-bottom: 5%;
-    }
-    
-    .whole-form {
-        margin-left: 37%;
-        margin-top: 20%;
-        width: 30%;
-        margin-right: 7%;
-    }
-    
-    .whole-forme {
-        margin-left: 37%;
-        margin-top: 25%;
-        width: 30%;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
 
 .input-name {
     font-weight: bold;
@@ -103,4 +85,169 @@
 .request-text {
     font-weight: bold;
     color: white;
+}
+
+@media (min-width: 1201px) and (max-width:1450px){
+    .login-form {
+        width: 100%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-width: 0px !important;
+        border: none;
+    }
+      
+    .card-title {
+        margin-bottom: 5%;
+    }
+    
+    .whole-form {
+        margin-left: 5%;
+        margin-top: 11%;
+        width: 30%;
+        float: right;
+        margin-right: 7%;
+    }
+    
+    .whole-forme {
+        margin-left: 5%;
+        margin-top: 20%;
+        width: 30%;
+        float: right;
+        margin-right: 7%;
+    }
+
+    .input-name {
+        font-weight: bold;
+        font-size: larger;
+        margin-top: 3%;
+    }
+    
+    .form-inputs {
+        margin-top: 3%;
+    }
+    
+    .input-box {
+        margin-top: 3%;
+        background-color: #AAAAAA;
+    }
+    
+    .request {
+        width: 100%;
+        margin-top:5%;
+    }
+}
+
+@media (min-width: 1450px) and (max-width:1718px){
+    .login-form {
+        width: 100%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-width: 0px !important;
+        border: none;
+    }
+      
+    .card-title {
+        margin-bottom: 5%;
+    }
+    
+    .whole-form {
+        margin-left: 5%;
+        margin-top: 11%;
+        width: 25%;
+        float: right;
+        margin-right: 7%;
+    }
+    
+    .whole-forme {
+        margin-left: 3%;
+        margin-top: 18%;
+        width: 25%;
+        float: right;
+        margin-right: 8%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .login-form {
+        width: 100%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-width: 0px !important;
+        border: none;
+    }
+      
+    .card-title {
+        margin-bottom: 5%;
+    }
+    
+    .whole-form {
+        margin-left: 37%;
+        margin-top: 20%;
+        width: 30%;
+        margin-right: 7%;
+    }
+    
+    .whole-forme {
+        margin-left: 37%;
+        margin-top: 25%;
+        width: 30%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+@media (max-width: 1000px) {
+    .login-form {
+        width: 100%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-width: 0px !important;
+        border: none;
+    }
+      
+    .card-title {
+        margin-bottom: 5%;
+    }
+    
+    .whole-form {
+        margin-left: 15%;
+        margin-top: 10%;
+        width: 70%;
+    }
+
+    .whole-forme {
+        margin-left: 15%;
+        margin-top: 25%;
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .input-name {
+        font-weight: bold;
+        font-size: larger;
+        margin-top: 1%;
+    }
+    
+    .form-inputs {
+        margin-top: 1%;
+    }
+    
+    .input-box {
+        margin-top: 1%;
+        background-color: #AAAAAA;
+    }
+    
+    .request {
+        width: 100%;
+        margin-top:5%;
+    }
+}
+
+@media (max-width: 1100px) and (min-width: 950px) {
+    .whole-forme {
+        margin-left: 37%;
+        margin-top: 25%;
+        width: 30%;
+        justify-content: center;
+        align-items: center;
+    }
 }
