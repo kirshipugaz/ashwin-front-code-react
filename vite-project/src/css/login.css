@@ -1,0 +1,17 @@
+.forgot {
+    color : black;
+    cursor: pointer;
+}
+
+.business-acc {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.business-a {
+    font-weight: bold;
+    color: rgb(219, 117, 22);
+    cursor: pointer;
+}

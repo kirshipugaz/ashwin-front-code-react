@@ -1,0 +1,43 @@
+@media (min-width: 1718px){
+    .header-content {
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    float: left;
+    margin-left: 10%;
+  }
+  
+.header-image {
+    width: auto;
+    height: auto;
+    border-radius: 4%;
+    max-width: 1000px;
+}
+
+}
+
+@media (min-width: 1201px) and (max-width:1718px){
+    .header-content {
+    margin-top: 7%;
+    display: flex;
+    float: left;
+    margin-left: 5%;
+    width: 50%;
+  }
+  
+.header-image {
+    width: auto;
+    height: auto;
+    border-radius: 4%;
+}
+
+}
+
+@media (max-width: 1200px) {
+    .header-content {
+        width: 0px;
+        height: 0px;
+    }
+}

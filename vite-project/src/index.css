@@ -1,0 +1,24 @@
+a {
+    color: orange;
+}
+  
+a:hover {
+    color: darkorange;
+}
+
+.btn-block {
+    background-color: orange;
+    border: none;
+}
+
+.btn-block-req {
+    background-color: rgb(219, 117, 22);
+    border: none;
+}
+
+.btn-block-req:hover {
+    background-color: rgb(177, 88, 4);
+}
+
+body {
+}
