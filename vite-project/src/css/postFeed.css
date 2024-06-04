@@ -1,0 +1,95 @@
+.post-feed {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 2.5%;
+  }
+  
+  .post {
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: none;
+    overflow: hidden;
+  }
+  
+  .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+  }
+  
+  .post-profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .post-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-width: 1px;
+    --tw-border-opacity: 1;
+    border-color: rgb(55 65 81 / var(--tw-border-opacity));
+  }
+  
+  .post-body {
+    padding: 20px;
+  }
+  
+  .post-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+.post-header h5 {
+  margin-bottom: 0px;
+}
+
+.post-header .btn {
+  font-size: larger;
+  color: orange;
+  text-decoration: none;
+}
+
+.post-profile-info {
+  display: flex;
+}
+
+.like-heart {
+  cursor: pointer;
+  --tw-text-opacity: 1;
+  color: rgb(100 116 139 / var(--tw-text-opacity));
+  vertical-align: sub;
+}
+
+.like-heart:hover{
+  --tw-text-opacity: 1;
+  color: rgb(236, 165, 72);
+}
+
+.post-info-below {
+  margin-left: 10px;
+  cursor: pointer;
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.post-info-dot{
+  vertical-align: middle;
+}
+
+@media (max-width: 430px){
+  .like {
+    display: block;
+    height: 0px;
+    width: 0px;
+    opacity: 0;
+  }
+}

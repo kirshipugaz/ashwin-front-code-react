@@ -1,0 +1,84 @@
+.sidebar {
+    background-color: white;
+    margin-top: 5%;
+    padding: 10% 7%;
+    border-radius: 10px;
+  }
+  
+  .profile-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+
+  .small-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .action-buttons {
+    font-weight: bold;
+  }
+  
+  .action-buttons .btn-full {
+    width: 100%;
+    margin-top: 3%;
+    font-weight: bold;
+    padding: 4% 0% 4% 0%;
+  }
+
+  .action-buttons .btn-half {
+    width: 48%;
+    margin-top: 3%;
+    padding: 4% 0% 4% 0%;
+    font-weight: bold;
+  }
+  
+  .tags-section {
+    text-align: left;
+  }
+  
+  .tags .badge {
+    display: inline-block;
+    margin: 4% 4% 0 0;
+    padding: 3% 6%;
+    font-size: medium;
+    font-weight: normal;
+    color: black !important;
+    font-size: large;
+  }
+
+  .tags {
+    width: 100%;
+    color: black;
+  }
+
+.whats-going {
+  background-color: #dddddd;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 3%;
+  border-radius: 20px;
+  font-weight: bold;
+  justify-content: space-evenly;
+}
+
+.btn-add {
+  border: 2px solid black;
+  margin: 4% 4% 0 0;
+  align-items: center;
+  text-align: center;
+  padding: 2% 6%;
+  font-size: large;
+}
+
+.btn-add svg {
+  vertical-align: text-top;
+  margin-right: 5px;
+}

@@ -1,0 +1,51 @@
+.insights {
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 7% 5% 7% 5%;
+}
+
+.insights-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.this-what {
+    width: 35%;
+    border: none !important;
+    border-width: 0px !important;
+    text-align: right;
+}
+
+.insight-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+.insight-cards .card {
+    width: 48%;
+    font-size: large;
+    margin-top: 5%;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 0% 2% 0% 2%;
+}
+
+.insight-cards .card-orange {
+    width: 48%;
+    font-size: large;
+    margin-top: 5%;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 0% 2% 0% 2%;
+    background-color: rgb(243, 181, 66);
+}
+
+.insight-cards h4 {
+    margin-bottom: 0px;
+}
+
+.insight-cards h1 {
+    margin-bottom: 0px;
+}

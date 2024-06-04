@@ -251,3 +251,14 @@
         align-items: center;
     }
 }
+
+.container1 {
+    width: 90%;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.background {
+    background-color: #eeeeee;
+    margin: 0;
+}
