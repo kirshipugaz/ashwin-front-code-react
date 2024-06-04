@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./../css/SignUp.css";
+import "./../../css/SignUp.css";
 import Footer from "../../components/Footer";
 import Header from "../../components/imgHeader";
 import { Link } from "react-router-dom";

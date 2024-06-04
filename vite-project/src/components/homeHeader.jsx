@@ -12,7 +12,7 @@ function Header() {
   return (
     <header className="header">
       <nav className="navbar">
-        <div className="navbar-brand"><GoHomeFill size={30} />Home</div>
+        <a className="navbar-brand"><GoHomeFill size={30} />Home</a>
         <div className="navbar-links">
           <a className="nav-link" href="#"><MdCalendarToday size={30} /> Events</a>
           <a className="nav-link" href="#"><MdAdminPanelSettings size={30} /> Admins</a>

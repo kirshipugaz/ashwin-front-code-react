@@ -1,11 +1,21 @@
-.post-feed {
+.total-post-feed {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
     margin-top: 2.5%;
     height: 91vh;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.post-feed {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 2.5%;
+    height: 73vh;
     overflow: scroll !important;
-    overflow-y:visible;
+    overflow-y: visible;
   }
   
   .post {
@@ -95,4 +105,56 @@
     width: 0px;
     opacity: 0;
   }
+}
+
+.search-button-post-feed {
+  background-color: #cccccc !important;
+  border-radius: 50% !important;
+  margin-right: 2%;
+  border: none !important;
+}
+
+.posts-static-header {
+  display: flex;
+  width: 100%;
+  justify-content:space-between;
+  flex-direction: row;
+}
+
+.posts-sort-by {
+  border: none !important;
+  background-color: #eeeeee !important;
+  text-align: center;
+}
+
+.posts-type {
+  background-color: #dddddd;
+  margin: 0% 2% 0% 2%;
+  padding: 1% 2%;
+  text-align: center;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  
+}
+
+.posts-type-current {
+  background-color: #eca342;
+  margin: 0% 2% 0% 2%;
+  padding: 1% 2%;
+  text-align: center;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.posts-type-link {
+  color: black !important;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.total-post-feed .row {
+  margin-top: 1%;
 }

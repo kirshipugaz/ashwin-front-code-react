@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import SignUp from './pages/SignUp'
+import SignUp from './pages/auth/SignUp'
 import "./../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import Login from './pages/Login'
+import Login from './pages/auth/Login'
 import {Routes, Route} from "react-router-dom";
 import Home from './pages/Home';
 
