@@ -6,6 +6,7 @@ function PostFeed() {
   return (
     <main className="post-feed">
       <Post />
+      <Post />
     </main>
   );
 }

@@ -82,4 +82,28 @@
 svg {
     vertical-align: sub;
 }
-  
+
+
+.search-button {
+  background-color: #aaaaaa !important;
+  border-radius: 50% !important;
+  width: 19% !important;
+  margin-right: 4%;
+}
+
+.search-input {
+  border: none !important;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #aaaaaa !important;
+  border-radius: 0% !important;
+}
+
+.search-input-form {
+  display: flex;
+}
+
+.notification-bell {
+  background-color: #aaaaaa !important;
+  border-radius: 50% !important;
+  margin-right: 20px;
+}

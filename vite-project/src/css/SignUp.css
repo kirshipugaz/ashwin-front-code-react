@@ -262,3 +262,12 @@
     background-color: #eeeeee;
     margin: 0;
 }
+
+
+@media (min-width : 1200px) {
+    body {
+        overflow: hidden !important;
+        height: 100%;
+    }
+}
+

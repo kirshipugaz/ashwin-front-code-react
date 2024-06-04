@@ -3,6 +3,9 @@
     padding: 20px;
     border-radius: 10px;
     margin-top: 2.5%;
+    height: 91vh;
+    overflow: scroll !important;
+    overflow-y:visible;
   }
   
   .post {

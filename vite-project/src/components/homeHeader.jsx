@@ -5,6 +5,8 @@ import { GoHomeFill } from "react-icons/go";
 import { MdCalendarToday } from "react-icons/md";
 import { MdAdminPanelSettings } from "react-icons/md";
 import { IoMdSettings } from "react-icons/io";
+import { IoIosNotifications } from "react-icons/io";
+import { CiSearch } from "react-icons/ci";
 
 function Header() {
   return (
@@ -17,8 +19,13 @@ function Header() {
           <a className="nav-link" href="#"><IoMdSettings size={30} /> Settings</a>
         </div>
         <div className="navbar-search">
-          <button type="submit">Search</button>
-          <input type="text" placeholder="Search here" />
+          <form className='search-input-form'>
+            <button type="submit" className='search-button'><CiSearch size={25} /></button>
+            <input type="text" className='search-input' placeholder="Search here" />
+          </form>
+        </div>
+        <div>
+          <IoIosNotifications className='notification-bell' size={30} />
         </div>
         <div className="navbar-profile">
           <img src={profile} alt="Profile" className="profile-image" />

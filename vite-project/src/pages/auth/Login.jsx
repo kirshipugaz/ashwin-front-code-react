@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import Header from '../components/imgHeader'
-import Footer from '../components/Footer'
+import Header from '../../components/imgHeader'
+import Footer from '../../components/Footer'
 import "../css/login.css"
 import { Link } from 'react-router-dom'
 
