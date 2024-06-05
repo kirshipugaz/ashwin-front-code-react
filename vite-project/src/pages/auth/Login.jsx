@@ -55,7 +55,9 @@ const Login = () => {
             <a className='business-a'>Register a business account</a>
         </div>
       </div>
+      <div className='login-page-footer'>
         <Footer />
+        </div>
     </>
   )
 }
