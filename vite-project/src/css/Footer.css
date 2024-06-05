@@ -1,17 +1,44 @@
-footer {
+@media (min-width:1000px) {
+  footer {
     background-color: #f8f9fa;
     padding: 20px 0;
+    width: 100%;
+    bottom: 0px;
     position: fixed;
+  }
+}
+
+@media (min-height:690px) and (max-width : 1000px){
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
     width: 100%;
     bottom: 0;
+    position: fixed;
   }
+}
   
   footer a {
-    color: #6c757d;
+    color: black;
+    text-decoration: none;
     margin: 0 10px;
+    font-weight: bold;
   }
   
   footer a:hover {
     text-decoration: none;
   }
-  
+
+  @media (min-width : 780px) and (max-height : 700px) {
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    footer {
+      margin-top: auto;
+      background-color: #f8f9fa;
+      padding: 20px 0;
+    }
+  }
