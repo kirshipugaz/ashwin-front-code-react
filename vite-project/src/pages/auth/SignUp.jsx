@@ -3,6 +3,7 @@ import "./../../css/SignUp.css";
 import Footer from "../../components/Footer";
 import Header from "../../components/imgHeader";
 import { Link } from "react-router-dom";
+import { Col, Row } from "react-bootstrap";
 
 const SignUp = () => {
 
@@ -25,7 +26,12 @@ const SignUp = () => {
 
   return (
     <>
-      <Header />
+    <div className="sign-up-page">
+    <Row className="form-and-image">
+      <Col xl={6} sm={0}>
+        <Header />
+      </Col>
+      <Col xl={6} sm={12}>
       <div className="whole-form">
         <div className="card login-form">
           <div className="card-body">
@@ -72,8 +78,14 @@ const SignUp = () => {
           </div>
         </div>
       </div>
-
-      <Footer />
+      </Col>
+      </Row>
+      <Row className="">
+        <div className='login-page-footer'>
+          <Footer />
+        </div>
+      </Row>
+      </div>
     </>
   );
 };

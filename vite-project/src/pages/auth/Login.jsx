@@ -3,6 +3,7 @@ import Header from '../../components/imgHeader'
 import Footer from '../../components/Footer'
 import "../../css/login.css"
 import { Link } from 'react-router-dom'
+import { Col, Row } from 'react-bootstrap'
 
 
 const Login = () => {
@@ -22,7 +23,11 @@ const Login = () => {
 
   return (
     <>
-        <Header />
+      <Row className='form-and-image'>
+        <Col xl={6} sm={0}>
+          <Header />
+        </Col>
+        <Col xl={6} sm={12}>
         <div className="whole-forme">
       <div className="card login-form">
         <div className="card-body">
@@ -55,6 +60,8 @@ const Login = () => {
             <a className='business-a'>Register a business account</a>
         </div>
       </div>
+      </Col>
+      </Row>
       <div className='login-page-footer'>
         <Footer />
         </div>
