@@ -258,11 +258,14 @@
     margin-left: 5%;
 }
 
+
 .background {
     background-color: #eeeeee;
     margin: 0;
-    height: 92vh;
+    height: 100%;
 }
+
+
 
 
 @media (min-width : 1200px) and (min-height: 850px) {
