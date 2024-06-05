@@ -3,9 +3,13 @@
     padding: 20px;
     border-radius: 10px;
     margin-top: 2.5%;
-    height: 91vh;
+    height: 85vh;
     overflow: hidden;
     padding-bottom: 10px;
+}
+
+.post-feed::-webkit-scrollbar {
+  display: none;
 }
 
 .post-feed {
@@ -13,7 +17,7 @@
     padding: 20px;
     border-radius: 10px;
     margin-top: 2.5%;
-    height: 73vh;
+    height: 74vh;
     overflow: scroll !important;
     overflow-y: visible;
   }

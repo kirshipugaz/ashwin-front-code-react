@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import SignUp from './pages/auth/SignUp'
 import "./../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import Login from './pages/auth/Login'

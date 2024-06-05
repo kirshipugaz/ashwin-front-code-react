@@ -261,10 +261,11 @@
 .background {
     background-color: #eeeeee;
     margin: 0;
+    height: 92vh;
 }
 
 
-@media (min-width : 1200px) {
+@media (min-width : 1200px) and (min-height: 850px) {
     body {
         overflow: hidden !important;
         height: 100%;

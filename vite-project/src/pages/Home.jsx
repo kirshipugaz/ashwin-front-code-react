@@ -3,6 +3,7 @@ import Header from "../components/homeHeader";
 import Sidebar from "../components/sidebar";
 import PostFeed from "../components/PostFeed";
 import Insights from "../components/Insights";
+import {Row, Col} from "react-bootstrap"
 
 const Home = () => {
   return (
@@ -10,18 +11,18 @@ const Home = () => {
       <Header />
       <div className="background">
       <div className="container1">
-        <div className="row">
-          <div className="col-xl-3 col-lg-12">
+        <Row>
+          <Col xl={3} lg={12}>
             <Sidebar />
-          </div>
+          </Col>
           
-          <div className="col-xl-6 col-lg-12">
+          <Col xl={6} lg={12}>
             <PostFeed />
-          </div>
-          <div className="col-xl-3 col-lg-12">
+          </Col>
+          <Col xl={3} lg={12}>
             <Insights />
-          </div>
-        </div>
+          </Col>
+        </Row>
       </div>
       </div>
     </>
