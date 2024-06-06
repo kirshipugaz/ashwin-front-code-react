@@ -4,7 +4,10 @@ import "../css/postFeed.css"
 import { FaPlus } from "react-icons/fa6";
 import img from "../assets/post2.png";
 import { FaRegHeart } from "react-icons/fa";
+import { BsHeartFill } from "react-icons/bs";
 import { LuDot } from "react-icons/lu";
+import { FaComment } from "react-icons/fa6";
+import { BiRepost } from "react-icons/bi";
 
 const Post = ({post}) => {
 
@@ -32,11 +35,11 @@ const Post = ({post}) => {
           
           <div className="post-actions">
             <div>
-                <FaRegHeart className='like-heart' />167  <span className='like'>Likes</span>
+                <BsHeartFill className='like-heart' />167  <span className='like'>Likes</span>
             </div>
             <div>
-                <a className='post-info-below'><LuDot className='post-info-dot' size={25}/>4 Comments</a>
-                <a className='post-info-below'><LuDot className='post-info-dot' size={25}/>5 Repost</a>
+                <a className='post-info-below'><FaComment className='mobile-comment' size={18} /><LuDot className='post-info-dot' size={25}/>4 <span className='comment-text'>Comments</span></a>
+                <a className='post-info-below'><BiRepost className='mobile-repost' size={18} /><LuDot className='post-info-dot' size={25}/>5 <span className='repost-text'>Repost</span></a>
             </div>
           </div>
         </div>

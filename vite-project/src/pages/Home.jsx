@@ -4,6 +4,7 @@ import Sidebar from "../components/sidebar";
 import PostFeed from "../components/PostFeed";
 import Insights from "../components/Insights";
 import {Row, Col} from "react-bootstrap"
+import MobileFooter from "../components/MobileFooter";
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
       <div className="background">
       <div className="container1">
         <Row>
-          <Col xl={3} lg={12}>
+          <Col xl={3} lg={12} xs={0} className="home-file-sidebar">
             <Sidebar />
           </Col>
           
@@ -24,6 +25,7 @@ const Home = () => {
           </Col>
         </Row>
       </div>
+        <MobileFooter />
       </div>
     </>
   );

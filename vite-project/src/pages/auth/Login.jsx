@@ -23,6 +23,7 @@ const Login = () => {
 
   return (
     <>
+    <div className='sign-up-page'>
       <Row className='form-and-image'>
         <Col xl={6} sm={0}>
           <Header />
@@ -65,6 +66,7 @@ const Login = () => {
       <div className='login-page-footer'>
         <Footer />
         </div>
+      </div>
     </>
   )
 }

@@ -7,12 +7,12 @@ a:hover {
 }
 
 .btn-block {
-    background-color: orange;
+    background: #E6791C;
     border: none;
 }
 
 .btn-block-req {
-    background-color: rgb(219, 117, 22);
+    background: #E6791C;
     border: none;
 }
 
@@ -21,4 +21,5 @@ a:hover {
 }
 
 body {
+    font-family: 'Work Sans';
 }

@@ -34,6 +34,7 @@
   }
 
   .action-buttons .btn-half {
+    background-color: #74847C !important;
     width: 48%;
     margin-top: 3%;
     padding: 4% 0% 4% 0%;
@@ -57,10 +58,17 @@
   .tags {
     width: 100%;
     color: black;
+    display: flex;
+    flex-flow: wrap;
+    overflow-x: scroll;
+  }
+
+  .tags::-webkit-scrollbar {
+    display: none;
   }
 
 .whats-going {
-  background-color: #dddddd;
+  background-color: #F6F6F6;
   display: flex;
   align-items: center;
   text-align: center;
@@ -79,7 +87,58 @@
   font-size: large;
 }
 
+.btn-add:hover {
+  color: #aaaaaa;
+  border: 2px solid #aaaaaa;
+  margin: 4% 4% 0 0;
+  align-items: center;
+  text-align: center;
+  padding: 2% 6%;
+  font-size: large;
+}
+
 .btn-add svg {
   vertical-align: text-top;
   margin-right: 5px;
+}
+
+.profile-and-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.draw-icon{
+  color: #E6791C;
+  cursor: pointer;
+}
+
+.tag1 {
+  background-color: #FFDC84 !important;
+}
+
+.tag2 {
+  background-color: #EFFF9A !important;
+}
+
+.tag3 {
+  background-color: #AFFFD7 !important;
+}
+
+.tag4 {
+  background-color: #FFC28F !important;
+}
+
+.tag5 {
+  background-color: #FFCFF7 !important;
+}
+
+.tag6 {
+  background-color: #BEC9FF !important;
+}
+
+@media (max-width : 600px) {
+  .sidebar {
+    display: none;
+  }
 }
