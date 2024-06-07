@@ -1,5 +1,5 @@
 
-@media (min-width: 600px) {
+@media (min-width: 1200px) {
 .header {
     background-color: #f8f9fa;
     padding: 10px 20px;
@@ -32,10 +32,11 @@
     font-weight: bold;
     margin-right: 20px;
     align-items: center;
-    background-color: rgb(231, 186, 101);
+    background-color: #FDF0E6 !important;
     padding: 15px 15px;
     border-radius: 15px;
     cursor: pointer;
+    color: #E6791C !important;
   }
   
   
@@ -83,6 +84,11 @@
     display: flex;
     align-items: center;
   }
+
+  .navbar-profile h5 {
+    font-weight: bolder !important;
+    margin-bottom: 0px !important;
+  }
   
   .profile-image {
     width: 40px;
@@ -91,7 +97,7 @@
     margin-right: 10px;
   }
 
-svg {
+.navbar-links svg {
     vertical-align: sub;
 }
 
@@ -122,6 +128,7 @@ svg {
   border-radius: 50% !important;
   margin-right: 20px;
   margin-left: 20px;
+  cursor: pointer;
 }
 
 .logo-image {
@@ -131,16 +138,17 @@ svg {
   cursor: pointer;
 }
 
-@media (max-width: 1380px) {
+@media (max-width: 1483px) {
   .current-nav-link {
     font-size: 1.5rem;
     font-weight: bold;
     margin-right: 20px;
     align-items: center;
-    background-color: rgb(231, 186, 101);
+    background-color: #FDF0E6 !important;
     padding: 15px 15px;
     border-radius: 15px;
     cursor: pointer;
+    color: #E6791C !important;
   }
   .nav-link {
     margin-right: 15px;
@@ -157,7 +165,7 @@ svg {
   }
 }
 
-@media (max-width : 600px) {
+@media (max-width : 1200px) {
   .navbar-links {
     display: none;
   }
@@ -207,4 +215,17 @@ svg {
     
   }
 
+}
+
+@media (max-width:1305px) {
+  .search-input {
+    display: none;
+  }
+  .search-button {
+    width: 100% !important;
+  }
+}
+
+.nav-link-text {
+  margin-left: 5px;
 }

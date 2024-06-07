@@ -8,6 +8,7 @@ import { BsHeartFill } from "react-icons/bs";
 import { LuDot } from "react-icons/lu";
 import { FaComment } from "react-icons/fa6";
 import { BiRepost } from "react-icons/bi";
+import {Row, Col} from "react-bootstrap"
 
 const Post = ({post}) => {
 
@@ -20,16 +21,18 @@ const Post = ({post}) => {
   return (
     <>
         <div className="post">
-        <div className="post-header">
-        <div className='post-profile-info'>
+        <Row className="post-header">
+        <Col xs={8} sm={8} className='post-profile-info'>
           <img src={profile} alt="Ashwin Kumar" className="post-profile-pic" />
           <div>
             <h5>{dummyPost.author}</h5>
             <h6>{dummyPost.place}</h6>
           </div>
-        </div>
-          <button className="btn btn-link">Follow <FaPlus size={25} /></button>
-        </div>
+        </Col>
+        <Col xs={4} sm={4} className='follow-text-icon'>
+          <button className="btn btn-link follow-button-text">Follow <FaPlus className='follow-plus-icon' size={25} /></button>
+        </Col>
+        </Row>
         <img src={img} className='post-image' alt=''/>
         <div className="post-body">
           

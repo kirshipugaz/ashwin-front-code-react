@@ -32,6 +32,7 @@
     margin-top: 5%;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     padding: 0% 2% 0% 2%;
+    overflow: hidden;
 }
 
 .insight-cards .card-orange {
@@ -55,4 +56,15 @@
     .insights {
         display: none;
     }
+}
+
+@media (min-width : 1200px) and (max-width: 1300px) {
+    .card-body h5 {
+        font-size: medium;
+        font-weight: bold;
+    }
+}
+
+.card-body h1 {
+    font-weight: bolder;
 }

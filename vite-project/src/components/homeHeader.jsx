@@ -18,10 +18,10 @@ function Header() {
           <img src={logo} className='d-inline-block align-text-top logo-image'/>
         </Link>
         <div className="navbar-links">
-          <a className="nav-link current-nav-link"><GoHomeFill size={30} />Home</a>
-          <a className="nav-link" href="#"><MdCalendarToday size={30} /> Events</a>
-          <a className="nav-link" href="#"><MdAdminPanelSettings size={30} /> Admins</a>
-          <a className="nav-link" href="#"><IoMdSettings size={30} /> Settings</a>
+          <a className="nav-link current-nav-link"><GoHomeFill size={30} /><span className='nav-link-text'>Home</span></a>
+          <a className="nav-link" href="#"><MdCalendarToday size={30} /><span className='nav-link-text'>Events</span></a>
+          <a className="nav-link" href="#"><MdAdminPanelSettings size={30} /><span className='nav-link-text'>Admins</span></a>
+          <a className="nav-link" href="#"><IoMdSettings size={30} /><span className='nav-link-text'>Settings</span></a>
         </div>
         <div className="navbar-search">
           <form className='search-input-form'>
@@ -32,7 +32,7 @@ function Header() {
         </div>
         <div className="navbar-profile">
           <img src={profile} alt="Profile" className="profile-image" />
-          <span>Yameena</span>
+          <h5>Regina Phalange</h5>
         </div>
       </nav>
     </header>

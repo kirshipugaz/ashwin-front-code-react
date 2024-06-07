@@ -201,6 +201,10 @@
   display: none; 
 }
 
+.posts-secondary-header svg {
+  vertical-align: middle;
+}
+
 @media (max-width : 600px) {
   .badge-view-all {
     display: flex;
@@ -265,6 +269,9 @@
   width: 100%;
   height: 8%;
   background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  --bs-gutter-x: 0rem;
+  overflow-x: hidden !important;
 }
 
 .mobile-navi-icon {
@@ -338,4 +345,56 @@
   .comment-text {
     display: none;
   }
+}
+
+@media (max-width : 535px) {
+  .follow-plus-icon {
+    display: none;
+  }
+}
+
+@media (max-width : 420px) {
+  .post-profile-info h5{
+    font-size: 15px !important;
+  }
+  .post-profile-info h6{
+    font-size: 15px !important;
+  }
+  .follow-button-text {
+    font-size: 18px !important;
+  }
+  .post-profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .post-header {
+    padding: 0px 0px 5px 0px !important;
+  }
+}
+
+@media (max-width : 363px) {
+  .post-profile-info h5{
+    font-size: 13px !important;
+  }
+  .post-profile-info h6{
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width : 992px) and (min-width : 600px) {
+  .post-hash-tags {
+    
+  }
+  .sort-by-div {
+    margin-top: 15px;
+  }
+  .posts-types {
+    margin-top: 15px !important;
+  }
+}
+
+.follow-text-icon {
+  text-align: right !important;
 }

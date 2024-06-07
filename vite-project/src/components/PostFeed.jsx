@@ -14,11 +14,11 @@ function PostFeed() {
         <MobilePostsHeader />
       </Row>
       <Row className='posts-secondary-header'>
-        <Col lg={8} xs={12}>
-          <button className='search-button-post-feed'><CiSearch size={25} /></button>#Physical Wellness # Excercise and Diet
+        <Col lg={8} xs={12} className='post-hash-tags'>
+          <button className='search-button-post-feed'><CiSearch size={25} /></button>#Physical Wellness # Excercise
         </Col>
         <Col lg={1}></Col>
-        <Col lg={3}>
+        <Col lg={3} className='sort-by-div'>
           <select className="form-select posts-sort-by" aria-label="Small select example">
             <option value="latest">Sort by: Latest</option>
             <option value="none">Sort by: none</option>
@@ -27,7 +27,7 @@ function PostFeed() {
       </Row>
       <Row className='posts-types'>
         <Col lg={3} xs={4}>
-          <a className='posts-type-link posts-type-current'>
+          <a className='posts-type-link posts-type posts-type-current'>
               All Posts
           </a>
         </Col>
